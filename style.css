@@ -1,0 +1,24 @@
+.container {
+    width: 100px;
+    height: 100px;
+    background: #69ccff;
+    transition: width 2s, height 4s;
+    
+    
+}
+
+.container:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.text {
+  color: black;
+  font-size: 30px;
+  transition: font-size 4s;
+}
+.text:hover {
+   color: white;
+   font-size: 80px;
+}
+   
